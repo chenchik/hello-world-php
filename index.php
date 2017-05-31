@@ -1,7 +1,8 @@
 <?php
 
 echo "super simple hello world using openshift";
-echo "            `://///+:               oo++++/`                
+
+$lobster = "            `://///+:               oo++++/`              
          `/++:-::/+yy+              o-o/:-:oo/              
        `+o-.-::///d+-+/             s-:o/::::/s/            
       -s-.--:://:+/--/s             -o-://::::-/s-          
@@ -57,5 +58,16 @@ h`                    .hooooo:::/++oood`        soy
                 yhsooooosso+so+++++://///////y+             
                  -+oooooooo+ossssss+///+++++/.              
 ";
+
+$width = 60;
+
+for( $i = 0; $i <= strlen($lobster); $i++ ) {
+         $char = substr( $lobster, $i, 1 );
+         if($i == $width){
+                  echo "\n";
+         }else{
+                  echo $char;
+         }
+}
 
 ?>
