@@ -2,7 +2,7 @@
 
 echo "super simple hello world using openshift";
 
-echo "<br><br>You can't wear those shoes in the house.";
+echo "<br><br>jnkjnkjnkjnYou can't wear those shoes in the house.";
 
 $lobster = "            `://///+:               oo++++/`              
          `/++:-::/+yy+              o-o/:-:oo/              
