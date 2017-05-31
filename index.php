@@ -2,6 +2,8 @@
 
 echo "super simple hello world using openshift";
 
+echo "<br><br>You can't wear those shoes in the house.";
+
 $lobster = "            `://///+:               oo++++/`              
          `/++:-::/+yy+              o-o/:-:oo/              
        `+o-.-::///d+-+/             s-:o/::::/s/            
@@ -65,6 +67,7 @@ for( $i = 0; $i <= strlen($lobster); $i++ ) {
          $char = substr( $lobster, $i, 1 );
          if($i == $width){
                   echo "<br>";
+		  echo "herehere";
          }else{
                   echo $char;
          }
