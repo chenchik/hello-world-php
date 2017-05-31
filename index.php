@@ -64,7 +64,7 @@ $width = 60;
 for( $i = 0; $i <= strlen($lobster); $i++ ) {
          $char = substr( $lobster, $i, 1 );
          if($i == $width){
-                  echo "\n";
+                  echo "<br>";
          }else{
                   echo $char;
          }
