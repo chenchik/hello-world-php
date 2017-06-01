@@ -1,6 +1,6 @@
 <?php
 
-echo "super simple hello world using openshift";
+echo "super simpl3 hello world using openshift";
 
 echo "<br><br>jnkjnkjnkjnYou can't wear those shoes in the house.";
 
